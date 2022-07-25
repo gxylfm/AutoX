@@ -119,7 +119,7 @@ android {
             versionName versions.devVersionName
             buildConfigField "String", "CHANNEL", '"dev"'
             buildConfigField "String", "APPID", '"?id=23"'
-            manifestPlaceholders = [appName: "Autox.js[dev]"]
+            manifestPlaceholders = [appName: "Autox"]
         }
 
     }
